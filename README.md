@@ -61,3 +61,4 @@ python3 main.py interactive
 ## Author
 
 MSCS-632 Advanced Programming Languages Project
+Some portions of this project like design, test data were created with help from GitHub Copilot (AI-assisted code suggestions).
