@@ -1,0 +1,36 @@
+# Employee Shift Preferences
+# Format: EmployeeName,Day,Shift1,Shift2,Shift3
+# Shifts: Morning, Afternoon, Evening
+# You can list 1-3 shifts per day (in priority order)
+
+Alice,Monday,Morning,Afternoon
+Alice,Wednesday,Morning
+Alice,Friday,Afternoon
+Bob,Monday,Morning
+Bob,Tuesday,Afternoon
+Bob,Thursday,Evening
+Bob,Saturday,Morning
+Charlie,Tuesday,Morning,Afternoon
+Charlie,Wednesday,Afternoon
+Charlie,Friday,Morning
+Charlie,Sunday,Afternoon
+Diana,Monday,Afternoon
+Diana,Wednesday,Evening
+Diana,Thursday,Morning
+Diana,Saturday,Afternoon
+Eve,Tuesday,Evening
+Eve,Thursday,Afternoon
+Eve,Friday,Evening
+Eve,Sunday,Morning
+Frank,Monday,Evening
+Frank,Wednesday,Morning
+Frank,Friday,Afternoon
+Frank,Saturday,Evening
+Grace,Tuesday,Morning
+Grace,Thursday,Morning
+Grace,Friday,Evening
+Grace,Sunday,Afternoon
+Henry,Monday,Morning
+Henry,Wednesday,Afternoon
+Henry,Thursday,Evening
+Henry,Saturday,Morning

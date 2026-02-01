@@ -1,0 +1,237 @@
+Script started on Sun Feb  1 16:16:05 2026
+[1m[7m%[27m[1m[0m                                                                                                                 [0m[27m[24m[Jdotoku@Sandeshs-MBP python % [K[?2004h[7mpython3 main.py[27m[15D[27mp[27my[27mt[27mh[27mo[27mn[27m3[27m [27mm[27ma[27mi[27mn[27m.[27mp[27my[?2004l
+
+======================================================================
+EMPLOYEE SCHEDULING SYSTEM - DEMO MODE
+======================================================================
+
+Adding employees...
+Added employee: Alice
+Added employee: Bob
+Added employee: Charlie
+Added employee: Diana
+Added employee: Eve
+Added employee: Frank
+Added employee: Grace
+Added employee: Henry
+
+----------------------------------------------------------------------
+Adding shift preferences...
+----------------------------------------------------------------------
+
+Added preference for Alice on Monday: Morning, Afternoon
+Added preference for Alice on Wednesday: Morning
+Added preference for Alice on Friday: Afternoon
+Added preference for Bob on Monday: Morning
+Added preference for Bob on Tuesday: Afternoon
+Added preference for Bob on Thursday: Evening
+Added preference for Bob on Saturday: Morning
+Added preference for Charlie on Tuesday: Morning, Afternoon
+Added preference for Charlie on Wednesday: Afternoon
+Added preference for Charlie on Friday: Morning
+Added preference for Charlie on Sunday: Afternoon
+Added preference for Diana on Monday: Afternoon
+Added preference for Diana on Wednesday: Evening
+Added preference for Diana on Thursday: Morning
+Added preference for Diana on Saturday: Afternoon
+Added preference for Eve on Tuesday: Evening
+Added preference for Eve on Thursday: Afternoon
+Added preference for Eve on Friday: Evening
+Added preference for Eve on Sunday: Morning
+Added preference for Frank on Monday: Evening
+Added preference for Frank on Wednesday: Morning
+Added preference for Frank on Friday: Afternoon
+Added preference for Frank on Saturday: Evening
+Added preference for Grace on Tuesday: Morning
+Added preference for Grace on Thursday: Morning
+Added preference for Grace on Friday: Evening
+Added preference for Grace on Sunday: Afternoon
+Added preference for Henry on Monday: Morning
+Added preference for Henry on Wednesday: Afternoon
+Added preference for Henry on Thursday: Evening
+Added preference for Henry on Saturday: Morning
+
+============================================================
+STARTING SHIFT ASSIGNMENT
+============================================================
+Assigned Alice to Monday - Morning
+Assigned Alice to Wednesday - Morning
+Assigned Alice to Friday - Afternoon
+Assigned Bob to Monday - Morning
+Assigned Bob to Tuesday - Afternoon
+Assigned Bob to Thursday - Evening
+Assigned Bob to Saturday - Morning
+Assigned Charlie to Tuesday - Morning
+Assigned Charlie to Wednesday - Afternoon
+Assigned Charlie to Friday - Morning
+Assigned Charlie to Sunday - Afternoon
+Assigned Diana to Monday - Afternoon
+Assigned Diana to Wednesday - Evening
+Assigned Diana to Thursday - Morning
+Assigned Diana to Saturday - Afternoon
+Assigned Eve to Tuesday - Evening
+Assigned Eve to Thursday - Afternoon
+Assigned Eve to Friday - Evening
+Assigned Eve to Sunday - Morning
+Assigned Frank to Monday - Evening
+Assigned Frank to Wednesday - Morning
+Assigned Frank to Friday - Afternoon
+Assigned Frank to Saturday - Evening
+Assigned Grace to Tuesday - Morning
+Assigned Grace to Thursday - Morning
+Assigned Grace to Friday - Evening
+Assigned Grace to Sunday - Afternoon
+Assigned Henry to Monday - Morning
+Assigned Henry to Wednesday - Afternoon
+Assigned Henry to Thursday - Evening
+Assigned Henry to Saturday - Morning
+
+------------------------------------------------------------
+FILLING UNDERSTAFFED SHIFTS
+------------------------------------------------------------
+
+Monday - Afternoon needs 1 more employee(s)
+  Randomly assigned Grace to Monday - Afternoon
+
+Monday - Evening needs 1 more employee(s)
+  Randomly assigned Charlie to Monday - Evening
+
+Tuesday - Afternoon needs 1 more employee(s)
+  Randomly assigned Henry to Tuesday - Afternoon
+
+Tuesday - Evening needs 1 more employee(s)
+  Randomly assigned Diana to Tuesday - Evening
+
+Wednesday - Evening needs 1 more employee(s)
+  Randomly assigned Bob to Wednesday - Evening
+
+Thursday - Afternoon needs 1 more employee(s)
+  Randomly assigned Frank to Thursday - Afternoon
+
+Friday - Morning needs 1 more employee(s)
+  WARNING: No available employees for Friday - Morning
+
+Saturday - Afternoon needs 1 more employee(s)
+  Randomly assigned Eve to Saturday - Afternoon
+
+Saturday - Evening needs 1 more employee(s)
+  Randomly assigned Alice to Saturday - Evening
+
+Sunday - Morning needs 1 more employee(s)
+  Randomly assigned Alice to Sunday - Morning
+
+Sunday - Evening needs 2 more employee(s)
+  WARNING: No available employees for Sunday - Evening
+
+============================================================
+SHIFT ASSIGNMENT COMPLETE
+============================================================
+
+
+============================================================
+RESOLVING CONFLICTS
+============================================================
+No conflicts detected.
+============================================================
+
+
+============================================================
+FINAL WEEKLY SCHEDULE
+============================================================
+
+============================================================
+MONDAY
+============================================================
+  Morning      (3 employees) ✓
+               → Alice, Bob, Henry
+  Afternoon    (2 employees) ✓
+               → Diana, Grace
+  Evening      (2 employees) ✓
+               → Frank, Charlie
+
+============================================================
+TUESDAY
+============================================================
+  Morning      (2 employees) ✓
+               → Charlie, Grace
+  Afternoon    (2 employees) ✓
+               → Bob, Henry
+  Evening      (2 employees) ✓
+               → Eve, Diana
+
+============================================================
+WEDNESDAY
+============================================================
+  Morning      (2 employees) ✓
+               → Alice, Frank
+  Afternoon    (2 employees) ✓
+               → Charlie, Henry
+  Evening      (2 employees) ✓
+               → Diana, Bob
+
+============================================================
+THURSDAY
+============================================================
+  Morning      (2 employees) ✓
+               → Diana, Grace
+  Afternoon    (2 employees) ✓
+               → Eve, Frank
+  Evening      (2 employees) ✓
+               → Bob, Henry
+
+============================================================
+FRIDAY
+============================================================
+  Morning      (1 employees) ⚠ (needs 1 more)
+               → Charlie
+  Afternoon    (2 employees) ✓
+               → Alice, Frank
+  Evening      (2 employees) ✓
+               → Eve, Grace
+
+============================================================
+SATURDAY
+============================================================
+  Morning      (2 employees) ✓
+               → Bob, Henry
+  Afternoon    (2 employees) ✓
+               → Diana, Eve
+  Evening      (2 employees) ✓
+               → Frank, Alice
+
+============================================================
+SUNDAY
+============================================================
+  Morning      (2 employees) ✓
+               → Eve, Alice
+  Afternoon    (2 employees) ✓
+               → Charlie, Grace
+  Evening      (0 employees) ⚠ UNDERSTAFFED
+
+============================================================
+EMPLOYEE WORK SUMMARY
+============================================================
+  Alice                5 days ✓
+  Bob                  5 days ✓
+  Charlie              5 days ✓
+  Diana                5 days ✓
+  Eve                  5 days ✓
+  Frank                5 days ✓
+  Grace                5 days ✓
+  Henry                5 days ✓
+============================================================
+
+
+============================================================
+SCHEDULING STATISTICS
+============================================================
+Total shifts: 21
+Filled shifts: 20
+Understaffed shifts: 2
+Total employees: 8
+Average days per employee: 5.00
+============================================================
+
+[1m[7m%[27m[1m[0m                                                                                                                 [0m[27m[24m[Jdotoku@Sandeshs-MBP python % [K[?2004heexit[?2004l
+
+Script done on Sun Feb  1 16:16:16 2026
